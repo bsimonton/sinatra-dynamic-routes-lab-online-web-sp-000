@@ -26,7 +26,7 @@ class App < Sinatra::Base
     @w3 = params[:word3]
     @w4 = params[:word4]
     @w5 = params[:word5]
-    erb :sayword
+    erb :saynumberwords
   end
 
 
