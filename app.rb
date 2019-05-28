@@ -18,4 +18,10 @@ class App < Sinatra::Base
     erb :squarenumber
   end
 
+
+
+
+
+
+
 end
