@@ -28,6 +28,15 @@ class App < Sinatra::Base
     @w5 = params[:word5]
     erb :saynumberwords
   end
+  
+
+ get '/say/:number/:phrase' do
+   
+    @number = params[:number].to_i
+    @phrase = params[:phrase]
+    erb :sayphrase
+  end
+
 
 
 
